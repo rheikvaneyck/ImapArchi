@@ -1,0 +1,60 @@
+= imaparchi
+
+* http://github.com/rheikvaneyck/imapArchi
+
+== DESCRIPTION:
+
+..is a ruby program for archive emails from a imap server. Development is in progress, 
+plan is to archive emails and make them searchable:
+
+- Download IMAP emails into a local database
+- separate attachments from messages
+- categorise emails
+- tag important emails for later progress
+- analyse email usage
+
+Current idea is to use sqlite3 as the database to store all the data in. The 
+Google-chart-API is utilized to visualize the analyse data. Security protocols
+shall be used for authentication and transmitting emails.
+
+Enjoy watching the progress or despair of it.
+
+== FEATURES/PROBLEMS:
+
+The current work is in a very early develpment state, so u can not use this 
+tool right now.
+
+== SYNOPSIS:
+
+  FIX (code sample of usage)
+
+== REQUIREMENTS:
+
+- activerecord
+- shoulda
+- googlecharts
+
+== INSTALL:
+
+sudo gem install imaparchi
+
+== LICENSE:
+
+(The GPL)
+
+Copyright (c) 2012 Marcus Nasarek
+
+ServerHealth is copyrighted free software by Marcus Nasarek.
+You can redistribute it and/or modify it under either the terms of the GPL
+(see COPYING.txt file).
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

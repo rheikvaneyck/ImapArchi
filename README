@@ -1,0 +1,16 @@
+imaparchi
+
+..is a ruby program for archive emails from a imap server. Development is in progress, 
+plan is to archive emails and make them searchable:
+
+- Download IMAP emails into a local database
+- separate attachments from messages
+- categorise emails
+- tag important emails for later progress
+- analyse email usage
+
+Current idea is to use sqlite3 as the database to store all the data in. The 
+Google-chart-API is utilized to visualize the analyse data. Security protocols
+shall be used for authentication and transmitting emails.
+
+Enjoy watching the progress or despair of it.
